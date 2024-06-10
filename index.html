@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="/img/burger-1.png" type="image/x-icon">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>burger_project</title>
+</head>
+<body class="font-serif ">      <!--  navbar- start-->
+  <Nav class=" bg-white text-black w-full uppercase tracking-[0.22px] md:text[22px] py-11">
+    <div class="container mx-auto flex flex-row justify-between items-center">
+      <div class="flex flex-row pt-">
+        <!-- <img  src=/img/favicon2.jpg alt="website-logo"  class="w-40 h-20"> -->
+         <h2 class="font-bold pt-3 mr-3 text-[30px] text-red-900">BURGER <br/> SHOP</h2>
+        <img class="w-16 h-16 pt-6" src="/img/burger-1.png" alt="">
+      </div>
+      <ul class="hidden md:flex flex-row gap-16 justify-center items-center font-bold"> 
+        <li><a class="hover:underline" href="#">Home</a></li>
+        <li><a class="hover:underline" href="#">About</a></li>
+        <li><a class="hover:underline" href="#">Deals</a></li>
+        <li><a class="hover:underline" href="#">contact</a></li>
+        <li><a  class="bg-red-600 text-white hover:bg-red-700 rounded-md py-3 px-3" href="#">sign-up</a></li>
+      </ul>
+             <!--  mobile- navbar-->
+          <div class="md:hidden" >
+            <div class="space-y-1 rotate-180" id="hamburger">
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-yellow-400 p-10 items-start -translate-x-full transition-all font-bold" 
+            id="mobile-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a class="" href="#">sign-up</a></li>
+            <li><a href="#">contact</a></li>
+
+            </ul>
+          </div>
+                   <!--  mobile- navbar-end-->
+    </div>
+  </Nav>
+                  <!-- nav-bar end-->
+                  <!-- hero-section start-->
+   <section class="flex flex-col container mx-auto bg-pink-50 rounded-[60px] pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row justify-between gap-10 z-30">
+    <div class="flex flex-col items-start text-black md:pb-[68px] z-10">
+      <h1 class=" text-4xl font-black leading-[125%] sm:text-4xl md:text-[95px] md:leading-[130%]"><span class=" relative after:w-[125%] after:h-full after:bg-white after:block after:absolute after after:-z-10 after:top-0 after:-rotate-2">LET'S</span> <br/> GRAB <br/>
+        <span class=" relative after:w-[125%] after:h-full after:bg-yellow-200 after:block after:absolute after after:-z-10 after:top-0 after:-rotate-2">BEST</span> <br/> <span class="">BURGERS</span>
+      </h1>
+      <p class="md:text-[32px]">Feeling hungry? Order it now..!</p>
+     <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-6 pt-8">
+      <!-- <div class="">
+        <img src="/img/yellow2.jpg" alt="" class="h-8 w-24 rounded-[100px] -rotate-3">
+      </div> -->
+    
+      <a class="bg-red-600 text-white font-bold rounded-xl px-4 py-4 text-center hover:bg-red-700" href="#">BUY NOW</a>
+     </div>
+    </div>
+    <div class="">
+      <img class="w-full rounded-md" src="/img/about.jpg" alt="">
+      </div>
+      </section>
+                   <!--hero section end-->
+                   <!--new arrival section start-->
+        <section class="flex flex-col container items-start gap-28 mt-7 mx-auto px-[10px]">
+          <div class="relative text-black">
+            <h2 class="text-4xl font-black after:absolute after:left-[50%] after:bottom-2.5 after:-z-10 md:text-5xl">NEW ARRIVALS</h2>
+          </div>
+          <div class="grid grid-flow-row grid-row-1 gap-24 md:grid-flow-col md:grid-cols-3 ">
+            <div class="flex flex-col w-full gap-7">
+              <img class="w-full h-[350px] object-cover object-[75%] rounded-[22px]" src="/img/burger-3.png" alt="">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col">
+                  <h3 class="text-[32px] font-medium">BURGER & BREVARAGE</h3>
+                  <a class="text-2xl text-red-600 hover:underline " href="#">ORDER NOW!</a>
+                </div>
+                <div class="">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full gap-7">
+              <img class="w-full h-[350px] object-cover object-[75%] rounded-[22px]" src="/img/beverage-2.png" alt="">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col">
+                  <h3 class="text-[32px] font-medium">BURGER & BREVARAGE</h3>
+                  <a class="text-2xl text-red-600  hover:underline" href="#">ORDER NOW!</a>
+                </div>
+                <div class="">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full gap-7">
+              <img class="w-full h-[350px] object-cover object-[75%] rounded-[22px]" src="/img/burger-4.png" alt="">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col">
+                  <h3 class="text-[32px] font-medium">BURGER & BREVARAGE</h3>
+                  <a class="text-2xl text-red-600 hover:underline " href="#">ORDER NOW!</a>
+                </div>
+                <div class="">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+                       <!-- new arrival section end -->
+                        <!--footer section start-->
+        <footer class="bg-black text-white py-[25px] flex flex-col gap-24 px-14 md:items-center md:gap-[413px] md:flex-row md:justify-between md:px-[100px] mt-5">
+          <div class="flex flex-col items-start gap-8">
+            <div>       <!--footer-left side-->
+            <h2 class="">BURGER-SHOP</h2>
+          </div>
+          <div class="">
+           <p class="text-xl text-[#8e8e8e] md:text-2xl font-normal">Eat your snacks with awesome <br/>
+                 Burgers from us.</p>
+          </div>
+          <ul class="flex flex-row gap-[14px]">
+            <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+            <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-x-line"></i></i></a></li>
+            <li><a href="#"><i class="ri-youtube-fill"></i></i></a></li>
+          </ul>
+        </div>       <!--footer-left side-end-->
+                <!--footer right side-->
+         <div class="flex flex-col gap-[50px] md:gap-[190px] md:flex-row">
+          <div class="flex flex-col gap-8 text-[#d9d9d9]">
+            <h4 class="font-bold">Company</h4>
+            <ul class="flex flex-col gap-8">
+              <li><a href="#"></a>About us</li>
+              <li><a href="#"></a>Contact us</li>
+              <li><a href="#"></a>Support</li>
+              <li><a href="#"></a>Carrers</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-8 text-[#d9d9d9]">
+            <h4 class="font-bold">Quick learn</h4>
+            <ul class="flex flex-col gap-8">
+              <li><a href="#"></a>Share Location</li>
+              <li><a href="#"></a>Order Tracking</li>
+              <li><a href="#"></a>Size Guide</li>
+              <li><a href="#"></a>FAQs</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-8 text-[#d9d9d9]">
+            <h4 class="font-bold">Legal</h4>
+            <ul class="flex flex-col gap-8">
+              <li><a href="#"></a>Terms And Condition</li>
+              <li><a href="#"></a>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+      </footer>                
+
+
+    
+                 <!-- javascript -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const mobileNav = document.getElementById("mobile-nav");
+
+    hamburger.addEventListener("click", () =>{
+      mobileNav.classList.toggle('-translate-x-full')
+    })
+  </script>
+  
+</body>
+</html>
